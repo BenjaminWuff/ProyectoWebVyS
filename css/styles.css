@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 .navbar::before {
   content: "";
   position: absolute;
@@ -19,19 +21,99 @@
 }
 
 .titulonavbar {
-  font-weight: 600;
+  font-weight: 650;
+  color: rgb(116, 19, 32);
+  margin-top: 38px;
+}
+
+.nav-link {
+  font-weight: 495;
+  color: rgb(20, 20, 20);
+}
+
+.nav-link:hover {
+  font-weight: 495;
+  color: rgb(162, 15, 38);
 }
 
 .logo {
   width: 180px;
+  padding-bottom: 8px;
+  padding-top: 12px;
 }
 
 .custom-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background-image: url('/assets/img/fondonavbar.png');
   background-size: 100% 100%;
+
+  /* PA LA ANIMACION */
+  transition: .5s;
+  top: -100px;
 }
 
-.li.nav-item {
-  color: red!important
-
+.botonresponsivo {
+  margin-top: 10px;
+  color: rgb(116, 19, 32);
+  font-size: smaller;
+  max-width: 60px;
+  max-height: 60px;
 }
+
+/* FIN NAVBAR */
+
+
+/* HEADER */
+
+.bg-cover {
+  background-size: cover !important;
+}
+
+.cotizarboton {
+  background:none;
+  font-weight: 550;
+  text-decoration: none;
+  border: 2px solid rgb(197, 26, 49);
+  border-radius: 5000px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  overflow: hidden;
+  padding:10px 45px;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+  }
+
+  .cotizarboton:hover, .cotizarboton:focus {
+    background:rgb(197, 26, 49);
+    color:#fff;
+    border: 2px solid rgb(197, 26, 49);
+    }
+
+  .imagenheader {
+      max-width: 100%;
+      max-height: 245px;
+      background-position: center!important;
+      background-repeat: no-repeat!important;
+      background-size: cover!important;
+    }
+
+
+    /* .imagenheader::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); 
+      z-index: 0; 
+    } FONDO NEGRO SEMI TRANSPARENTE*/
+
+    .textoheader {
+      position: relative;
+      z-index: 1;
+    }
+
