@@ -52,10 +52,12 @@
   z-index: 1000;
   background-image: url('/assets/img/fondonavbar.png');
   background-size: 100% 100%;
-
-  /* PA LA ANIMACION */
   transition: .5s;
+}
+
+.navtop {
   top: -100px;
+
 }
 
 .botonresponsivo {
@@ -116,9 +118,6 @@
   
 }
 
-
-
-
 .imagenheader::after {
   content: "";
   position: absolute;
@@ -134,6 +133,8 @@
       position: relative;
       z-index: 1;
     }
+
+    
 
 
     /* VIDEO */
@@ -184,7 +185,7 @@
     
     @media (pointer: coarse) and (hover: none) {
       header {
-        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+        background: url('/assets/img/cortadora2.jpg') black no-repeat center center scroll;
       }
     
       header video {
