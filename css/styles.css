@@ -153,7 +153,7 @@
       left: 50%;
       min-width: 100%;
       min-height: 100%;
-      width: auto;
+      width: 100vh;
       height: auto;
       z-index: 0;
       -ms-transform: translateX(-50%) translateY(-50%);
@@ -188,6 +188,7 @@
 }
 
 .about .about-img {
+  margin-top: 60px;
   min-height: 600px;
   background-size: cover;
   background-position: center;
@@ -204,7 +205,6 @@
 @media (min-width: 991px) {
 .about h2 {
   max-width: 65%;
-  margin: 0 0 80px 0 !important;
   }
 }
 
@@ -224,6 +224,7 @@
 .about .our-story {
   padding: 40px;
   background-color: #f5f6f7;
+  margin-bottom: 50px;
 }
 
 @media (min-width: 991px) {
@@ -232,7 +233,6 @@
 }}
 
 section {
-  padding: 80px 0;
   overflow: hidden;
 }
 
@@ -255,7 +255,7 @@ section {
     
     @media (pointer: coarse) and (hover: none) {
       header {
-        background: url('/assets/img/cortadora2.jpg') black no-repeat center center scroll;
+        background: url('/assets/img/RanVertical.jpg') black no-repeat center center scroll;
       }
     
       header video {
@@ -296,6 +296,13 @@ section {
   padding-bottom: 20px;
   background-image: url('/assets/img/fondonavbar.png');
   background-size: 100% 100%;
+}
+
+.footericon {
+  font-size: 20px;
+  margin-right: 6px;
+  padding-top: 0px !important;
+
 }
 
 li{
