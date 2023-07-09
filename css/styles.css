@@ -178,6 +178,76 @@
       z-index: 1;
     }
 
+/* EMPRESA */
+@media (min-width: 992px) {
+  .about .about-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.about .about-img {
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.10);
+}
+
+@media (min-width: 992px) {
+  .col-lg-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+}
+
+@media (min-width: 991px) {
+.about h2 {
+  max-width: 65%;
+  margin: 0 0 80px 0 !important;
+  }
+}
+
+.about h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--font-secondary);
+  margin: 30px 0;
+}
+
+@media (min-width: 991px) {
+  .about .our-story {
+  padding-right: 35%;
+  }
+}
+
+.about .our-story {
+  padding: 40px;
+  background-color: #f5f6f7;
+}
+
+@media (min-width: 991px) {
+.about .our-story {
+  padding-right: 35%;
+}}
+
+section {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.about ul i {
+  font-size: 20px;
+  margin-right: 4px;
+  padding-left: 0 ;
+  color: rgb(250, 188, 21);
+
+}
+
+.about ul {
+  padding-left: 0;
+}
+
     
     /* Media Query for devices withi coarse pointers and no hover functionality */
     
@@ -192,6 +262,25 @@
         display: none;
       }
     }
+
+/* CARTAS CONTACTO */
+.info-item {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+  padding: 20px 0 30px 0;
+}
+
+.info-item i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  line-height: 0;
+  color: var(--color-primary);
+  border-radius: 50%;
+  border: 2px dotted rgb(194, 32, 51);
+}
 
 
 
