@@ -8,9 +8,7 @@
 // 
 
 // Initiate the wowjs
-document.addEventListener('DOMContentLoaded', function () {
-    new WOW().init();
-});
+new WOW().init();
 
 // Sticky Navbar
 $(window).scroll(function () {
