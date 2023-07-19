@@ -311,6 +311,13 @@ section {
   
 }
 
+
+
+.videoran {
+  max-width: 100%;
+  height: 500px;
+}
+
 .gallery-image {
   width: 100%;
   height: 100%;
