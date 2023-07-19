@@ -28,7 +28,7 @@
   margin-bottom: 0;
   font-weight: 650;
   color: rgb(116, 19, 32);
-  margin-top: 40px;
+  margin-top: 45px;
   
 }
 
@@ -44,8 +44,8 @@
 
 .logo {
   width: 180px;
-  padding-bottom: 8px;
-  padding-top: 12px;
+  padding-bottom: 9px;
+  padding-top: 9px;
 }
 
 .custom-navbar {
