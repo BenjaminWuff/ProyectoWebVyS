@@ -250,6 +250,18 @@ section {
   padding-left: 0;
 }
 
+.elh2::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: rgb(194, 32, 51);
+  left: 0;
+  margin-bottom: 20px;
+  bottom: 0;
+}
+
     
     /* Media Query for devices withi coarse pointers and no hover functionality */
     
@@ -293,7 +305,6 @@ section {
   position: relative;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  word-break: break-word;
 }
 
 .elh3::after {
@@ -332,6 +343,10 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.titulogaleria {
+  font-weight: 700;
+  font-size: medium;
+}
 
 
 /* FOOTER */
