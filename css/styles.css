@@ -402,6 +402,7 @@ section {
 }
 
 .cartaobra {
+  background-color: red;
   min-width: 285px;
   min-height: 200px;
   max-width: 285px;
