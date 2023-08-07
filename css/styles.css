@@ -381,6 +381,35 @@ section {
   margin-right: 5px;
 }
 
+.contenedorcartas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px; /* Espacio entre las tarjetas */
+  max-width: 863px;
+  margin: 0 auto; /* Centrar el contenedor */
+}
+
+@media (max-width: 768px) {
+  .contenedorcartas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .contenedorcartas {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cartaobra {
+  min-width: 285px;
+  min-height: 200px;
+  max-width: 285px;
+  max-height: 200px;
+  padding: 30px;
+  padding-bottom: 0;
+}
+
 /* FOOTER */
 
 
