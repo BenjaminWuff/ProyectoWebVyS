@@ -382,10 +382,11 @@ section {
 }
 
 .contenedorcartas {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px; /* Espacio entre las tarjetas */
-  max-width: 863px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+  gap: 15px; /* Espacio entre las tarjetas */
+  max-width: 895px;
   margin: 0 auto; /* Centrar el contenedor */
 }
 
@@ -410,6 +411,14 @@ section {
   padding-bottom: 0;
 }
 
+
+
+/* @media (max-width: 1600px) {
+  .colimgobra {
+    display: none; 
+  }
+} */
+
 /* FOOTER */
 
 
@@ -419,7 +428,7 @@ section {
   /* padding-top: 5rem; */
   padding-top: 20px;
   padding-bottom: 20px;
-  background-image: url('/assets/img/fondonavbar.png');
+  background-image: url('/assets/img/fondonavbar.webp');
   background-size: 100% 100%;
 }
 
