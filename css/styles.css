@@ -384,9 +384,8 @@ section {
 .contenedorcartas {
   display: flex;
   flex-wrap: wrap;
-  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+  justify-content: center;
   gap: 15px; /* Espacio entre las tarjetas */
-  max-width: 895px;
   margin: 0 auto; /* Centrar el contenedor */
 }
 
